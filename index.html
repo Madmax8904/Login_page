@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="src/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header >login to Spotify</header>
+        <form>
+            <label for="email" class="Email">Email</label><br>
+            <div class="field email">
+                <div class="input-area">
+                    <input type="text" id="email"  placeholder="enter your email">
+                    <i class="icon fas fa-envelope"></i>
+                </div>
+            </div><br>
+            <label for="password" class="password">password</label><br>
+            <div class="field password">
+                <div class="input-area">
+                    <input type="text" id="password" placeholder="enter your password">
+                    <i class="icon fas fa-lock"></i>
+                </div>
+            </div>
+            <input type="button" onclick="login()" value="login"><br>
+            <br>
+            <div class="pass-txt"><a href="#">forgot password?</a></div>
+        </form>
+        <div class="sign-txt">Don't have an account?<a href="#">sign up for Spotify</a></div>
+    </div>
+
+    <script src="/src/index.js"></script>
+</body>
+
+</html>
